@@ -28,13 +28,13 @@ class TestRecursion(unittest.TestCase):
         path_counts_eff = rc.find_paths_memo(0, 0)
         nice_time = time.time() - start_time
 
-        print "find_paths dumb: {}, nice: {}".format(dumb_time, nice_time)
+        print "\ndumb: {}, nice: {}".format(dumb_time, nice_time)
 
         self.assertEqual(path_counts, path_counts_eff)
 
     def test_find_magic(self):
 
-        a = range(10000000)
+        a = range(2000000)
         idx_to_save = random.choice(a)
         a = np.array(a)
         a[:idx_to_save] -= 1
@@ -43,16 +43,17 @@ class TestRecursion(unittest.TestCase):
 
         start_time = time.time()
         magic_idx = rc.find_magic(a, 0, len(a))
-        print "index: {}, value: {}, time: {}".format(magic_idx,
-                                                      a[magic_idx],
-                                                      time.time() - start_time)
-
+        elapsed_nice = time.time() - start_time
 
         start_time = time.time()
-        magic_idx = rc.find_magic_dumb(a)
-        print "index: {}, value: {}, time: {}".format(magic_idx,
-                                                      a[magic_idx],
-                                                      time.time() - start_time)
+        magic_idx_dumb = rc.find_magic_dumb(a)
+        elapsed_dumb = time.time() - start_time
+
+        print "\ndumb: {}, nice: {}".format(elapsed_dumb, elapsed_nice)
+
+        self.assertEqual(idx_to_save, magic_idx)
+        self.assertEqual(magic_idx, magic_idx_dumb)
+        self.assertEqual(magic_idx, a[magic_idx])
 
     def test_subset_string(self):
         self.assertEqual(rc.subset_string("abcd"), ['a', 'b', 'c', 'd', 'ab',
