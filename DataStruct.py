@@ -3,6 +3,15 @@ __author__ = 'aouyang1'
 from Node import Node
 import ipdb
 
+
+class TreeNode(object):
+
+    def __init__(self, item, left=None, right=None):
+        self.left = left
+        self.right = right
+        self.data = item
+
+
 class StackClass(object):
 
     def __init__(self):
