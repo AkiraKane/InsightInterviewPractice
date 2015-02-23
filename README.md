@@ -23,7 +23,7 @@ WHERE DID THESE CAMELS COME FROM
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/climb_stairs_austin.py)
 
-[Compare Version](https://oj.leetcode.com/problems/compare-version/)
+[Compare Version Numbers](https://oj.leetcode.com/problems/compare-version-numbers/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/compare_version_austin.py)
 
