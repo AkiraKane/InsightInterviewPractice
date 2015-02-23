@@ -17,7 +17,7 @@ class Node(object):
     def __init__(self, d):
         self.next = None
         self.prev = None
-        self.data = d
+        self.val = d
 
 
 class StackClass(object):
@@ -39,10 +39,10 @@ class StackClass(object):
 
             # node with minimum value in stack to top
             old_min = self.min_top
-            if self.min_top.data > item:
+            if self.min_top.val > item:
                 new_min = item
             else:
-                new_min = self.min_top.data
+                new_min = self.min_top.val
             self.min_top = Node(new_min)
             self.min_top.next = old_min
 
@@ -52,7 +52,7 @@ class StackClass(object):
         if not self.top:
             return None
         else:
-            item = self.top.data
+            item = self.top.val
             self.top = self.top.next
 
             self.min_top = self.min_top.next
@@ -64,7 +64,7 @@ class StackClass(object):
         if not self.top:
             return None
         else:
-            item = self.top.data
+            item = self.top.val
             return item
 
     def is_empty(self):
@@ -75,7 +75,7 @@ class StackClass(object):
 
     def min(self):
         if self.top:
-            return self.min_top.data
+            return self.min_top.val
         else:
             return None
 
@@ -103,7 +103,7 @@ class QueueClass(object):
         if not self.front:
             return None
         else:
-            item = self.front.data
+            item = self.front.val
             print self.front.prev, self.size()
             self.front = self.front.prev
             self.front.next = None
@@ -159,7 +159,7 @@ class MyQueue(object):
         if not self.front:
             return None
         else:
-            item = self.front.data
+            item = self.front.val
             print self.front.prev, self.size()
             self.front = self.front.prev
             self.front.next = None
