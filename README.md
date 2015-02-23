@@ -35,6 +35,10 @@ WHERE DID THESE CAMELS COME FROM
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/title_to_number_austin.py)
 
+[Intersection of Two Linked Lists](https://oj.leetcode.com/problems/intersection-of-two-linked-lists/)
+- [Guang]
+- [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/get_intersection_node_austin.py)
+
 [Largest Number](https://oj.leetcode.com/problems/largest-number/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/largest_number_austin.py)
