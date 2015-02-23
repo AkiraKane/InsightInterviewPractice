@@ -1,6 +1,6 @@
 __author__ = 'aouyang1'
 
-from Node import Node
+
 import ipdb
 
 
@@ -9,7 +9,15 @@ class TreeNode(object):
     def __init__(self, item, left=None, right=None):
         self.left = left
         self.right = right
-        self.data = item
+        self.val = item
+
+
+class Node(object):
+
+    def __init__(self, d):
+        self.next = None
+        self.prev = None
+        self.data = d
 
 
 class StackClass(object):
@@ -124,3 +132,36 @@ def sort_stack(s1):
             s2.push(temp_val)
 
     return s2
+
+
+class MyQueue(object):
+    s1 = StackClass()
+    s2 = StackClass()
+
+    def __init__(self):
+        self.front = None
+        self.rear = None
+        self.num_elem = 0
+
+    def enqueue(self, item):
+        if not self.rear:
+            self.rear = Node(item)
+            self.front = self.rear
+        else:
+            old_rear = self.rear
+            self.rear = Node(item)
+            self.rear.next = old_rear
+            old_rear.prev = self.rear
+
+        self.num_elem += 1
+
+    def dequeue(self):
+        if not self.front:
+            return None
+        else:
+            item = self.front.data
+            print self.front.prev, self.size()
+            self.front = self.front.prev
+            self.front.next = None
+            self.num_elem -= 1
+            return item
