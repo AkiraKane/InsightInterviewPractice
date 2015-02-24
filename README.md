@@ -43,6 +43,10 @@ WHERE DID THESE CAMELS COME FROM
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/largest_number_austin.py)
 
+[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)
+- [Guang]
+- [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/length_of_last_word_austin.py)
+
 [Majority Element](https://oj.leetcode.com/problems/majority-element/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/majority_element_austin.py)
@@ -50,6 +54,10 @@ WHERE DID THESE CAMELS COME FROM
 [Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/merge_austin.py)
+
+[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)
+- [Guang]
+- [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/merge_two_lists_austin.py)
 
 [Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/)
 - [Guang]
@@ -71,6 +79,10 @@ WHERE DID THESE CAMELS COME FROM
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/remove_element_austin.py)
 
+[Rotate Array](https://oj.leetcode.com/problems/rotate-array/)
+- [Guang]
+- [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/rotate_austin.py)
+
 [Same Tree](https://oj.leetcode.com/problems/same-tree/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/is_same_tree_austin.py)
@@ -78,6 +90,10 @@ WHERE DID THESE CAMELS COME FROM
 [Search for a Range](https://oj.leetcode.com/problems/search-for-a-range/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/search_range_austin.py)
+
+[Spiral Matrix](https://oj.leetcode.com/problems/spiral-matrix/)
+- [Guang]
+- [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/spiral_order_austin.py)
 
 [Two Sum](https://oj.leetcode.com/problems/two-sum/)
 - [Guang]
