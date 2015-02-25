@@ -15,6 +15,10 @@ WHERE DID THESE CAMELS COME FROM
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/three_sum_closest_austin.py)
 
+[Add Binary](https://oj.leetcode.com/problems/add-binary/)
+- [Guang]
+- [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/add_binary_austin.py)
+
 [Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/zigzag_level_order_austin.py)
@@ -47,7 +51,7 @@ WHERE DID THESE CAMELS COME FROM
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/length_of_last_word_austin.py)
 
-[Majority Element](https://oj.leetcode.com/problems/majority-element/)
+[Majority Element](https://oj.leetcode.com/prsoblems/majority-element/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/majority_element_austin.py)
 
