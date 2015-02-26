@@ -34,14 +34,19 @@ WHERE DID THESE CAMELS COME FROM
 [Count and Say](https://oj.leetcode.com/problems/count-and-say/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/count_and_say_austin.py)
+- [Brant](https://github.com/aouyang1/InsightInterviewPractice/blob/master/count_and_say_brant.py)
 
 [Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/title_to_number_austin.py)
 
+[Implement strStr](https://github.com/aouyang1/InsightInterviewPractice/blob/master/implement_strstr_brant.py)
+- [Brant](https://oj.leetcode.com/problems/implement-strstr/)
+
 [Intersection of Two Linked Lists](https://oj.leetcode.com/problems/intersection-of-two-linked-lists/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/get_intersection_node_austin.py)
+- [Brant](https://github.com/aouyang1/InsightInterviewPractice/blob/master/intersection_of_two_linked_lists_brant.py)
 
 [Largest Number](https://oj.leetcode.com/problems/largest-number/)
 - [Guang]
@@ -54,6 +59,7 @@ WHERE DID THESE CAMELS COME FROM
 [Majority Element](https://oj.leetcode.com/prsoblems/majority-element/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/majority_element_austin.py)
+- [Brant](https://github.com/aouyang1/InsightInterviewPractice/blob/master/majority_element_brant.py)
 
 [Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)
 - [Guang]
@@ -71,6 +77,9 @@ WHERE DID THESE CAMELS COME FROM
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/get_row_austin.py)
 
+[Palindrome Number](https://oj.leetcode.com/problems/palindrome-number/)
+-[Brant](https://github.com/aouyang1/InsightInterviewPractice/blob/master/palindrome_number_brant.py)
+
 [Plus One](https://oj.leetcode.com/problems/plus-one/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/plus_one_austin.py)
@@ -82,6 +91,9 @@ WHERE DID THESE CAMELS COME FROM
 [Remove Element](https://oj.leetcode.com/problems/remove-element/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/remove_element_austin.py)
+
+[Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/)
+-[Brant](https://github.com/aouyang1/InsightInterviewPractice/blob/master/reverse_number_brant.py)
 
 [Rotate Array](https://oj.leetcode.com/problems/rotate-array/)
 - [Guang]
@@ -95,6 +107,9 @@ WHERE DID THESE CAMELS COME FROM
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/search_range_austin.py)
 
+[Single Number](https://oj.leetcode.com/problems/single-number/)
+-[Brant](https://github.com/aouyang1/InsightInterviewPractice/blob/master/single_number_brant.py)
+
 [Spiral Matrix](https://oj.leetcode.com/problems/spiral-matrix/)
 - [Guang]
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/spiral_order_austin.py)
@@ -106,5 +121,6 @@ WHERE DID THESE CAMELS COME FROM
 [Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)
 - [Guang](https://github.com/aouyang1/InsightInterviewPractice/raw/master/valid_parentheses_guang.py)
 - [Austin](https://github.com/aouyang1/InsightInterviewPractice/raw/master/is_valid_austin.py)
+- [Brant](https://github.com/aouyang1/InsightInterviewPractice/blob/master/valid_parentheses_brant.py)
 
 ## SQL
