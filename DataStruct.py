@@ -6,10 +6,11 @@ import ipdb
 
 class TreeNode(object):
 
-    def __init__(self, item, left=None, right=None):
+    def __init__(self, item, left=None, right=None, next=None):
         self.left = left
         self.right = right
         self.val = item
+        self.next = next
 
 
 class Node(object):
