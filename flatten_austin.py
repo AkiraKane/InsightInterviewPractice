@@ -8,7 +8,7 @@
 >>> root.right.right = TreeNode(6)
 >>> flatten(root)
 >>> print root.val, root.right.val, root.right.right.val, root.right.right.right.val, root.right.right.right.right.val, root.right.right.right.right.right.val, root.right.right.right.right.right.right
-
+1 2 3 4 5 6 None
 """
 
 

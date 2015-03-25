@@ -20,6 +20,29 @@ class Node(object):
         self.prev = None
         self.val = d
 
+    def print_values(self, num_elem=None):
+        cnt = 0
+        next_node = self.next
+        print self.val
+
+        while next_node is not None:
+            cnt += 1
+            if num_elem is not None and cnt == num_elem:
+                break
+
+            print next_node.val
+            next_node = next_node.next
+
+    def append_data(self, val_list):
+        curr_node = self
+        for val in val_list:
+            curr_node.next = Node(val)
+            curr_node = curr_node.next
+
+
+
+
+
 
 class StackClass(object):
 
